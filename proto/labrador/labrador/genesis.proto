@@ -1,0 +1,14 @@
+syntax = "proto3";
+package labrador.labrador;
+
+import "gogoproto/gogo.proto";
+import "labrador/labrador/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "labrador/x/labrador/types";
+
+// GenesisState defines the labrador module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
