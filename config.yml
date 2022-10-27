@@ -5,6 +5,9 @@ accounts:
   - name: bob
     coins: ['10000token', '100000000stake']
     address: charlie14uhk9ueggndqsc9pz6a4qrlkks3wpz0945dkkt
+  - name: steve
+    coins: ['10000token', '100000000stake']
+    address: charlie1nwt0kmda9rg335jxy78tz5ay075wz5ua6wdss7
 validators:
   - name: alice
     bonded: '100000000stake'
